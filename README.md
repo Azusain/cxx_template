@@ -8,7 +8,7 @@
   |-- src/
   |   |-- main.cc
   |-- CMakeLists.txt
-  |-- CMakePresets.json
+  |-- CMakePresets.txt
   |-- README.md
   |-- LICENSE
   |-- vcpkg.json
