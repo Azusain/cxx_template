@@ -3,7 +3,7 @@ project(Template VERSION 0.0.1)
 
 find_package(fmt CONFIG REQUIRED)
 
-file(GLOB SOURCES "*.cc" "*.cpp")
+file(GLOB SOURCES "src/*.cc" "src/*.cpp")
 file(GLOB INCLUDE_DIR "include")
 
 add_executable(Main ${SOURCES})
